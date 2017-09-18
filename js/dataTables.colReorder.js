@@ -779,7 +779,7 @@ $.extend( ColReorder.prototype, {
 				fnArraySwitch( a, currIndex, i );
 
 				/* Do the column reorder in the table */
-				this.s.dt.oInstance.fnColReorder( currIndex, i, true, false );
+				this.s.dt.oInstance.fnColReorder( currIndex, i, false, false );
 
 				changed = true;
 			}
